@@ -3,7 +3,7 @@ from datetime import date as dt, datetime as dtime
 
 # Create your models here.
 class AttendanceModel(models.Model):
-    date = models.DateField(timezone=True, default=dtime.now, primary_key=True)
+    date = models.DateField(default=dtime.now, primary_key=True)
     student_id = models.ForeignKey('StudentModel', on_delete=models.CASCADE, null=True, blank=True, related_name='student')
 
     def __str__(self):
