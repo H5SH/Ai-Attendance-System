@@ -4,12 +4,12 @@ import Dashboard from "../components/dashboard/Dashboard";
 
 
 
-const LogedInRoutes = ()=>(
+const LogedInRoutes = () => (
     <Routes>
-    <Route path='login/*' element={<Navigate to='/dashboard' />}/>
-    <Route path='/dashboard' element={<Dashboard />}/>
+        <Route path='*' element={<Navigate to='/dashboard' />} />
+        <Route path='/dashboard' element={<Dashboard />} />
     </Routes>
-    
+
 )
 
 export default LogedInRoutes

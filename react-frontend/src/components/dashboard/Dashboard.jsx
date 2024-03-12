@@ -1,12 +1,13 @@
-
+import NavBar from "../../utilities/NavBar"
 
 
 function Dashboard(){
 
+    
     return (
-        <>
-        Dashboard
-        </>
+        <div>
+        <NavBar />
+        </div>
     )
 }
 

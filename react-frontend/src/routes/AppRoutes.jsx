@@ -18,7 +18,7 @@ const AppRoutes = () => {
                         <Route element={<App />} />
                         {userState ?
                             <Route path='*' element={<LogedInRoutes />} /> :
-                            <Route path='login/*' element={<LogedOutRoutes />} />
+                            <Route path='*' element={<LogedOutRoutes />} />
                         }
                     </Routes>
                 </BrowserRouter>

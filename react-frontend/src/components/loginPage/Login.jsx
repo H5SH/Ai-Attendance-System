@@ -1,4 +1,4 @@
-import {Formik, Form, Field} from 'formik'
+import {Formik, Form, Field, ErrorMessage} from 'formik'
 import { useNavigate } from 'react-router-dom'
 import * as Yup from 'yup'
 
@@ -28,11 +28,14 @@ function Login(){
                 <Form>
                     <label>Username</label>
                     <Field name='username' type='text'/>
+                    <ErrorMessage name='username'/>
 
                     <label>Password</label>
-                    <Field name='password' type='text'/>
+                    <Field name='password' type='password'/>
+                    <ErrorMessage name='password'/>
 
-                    <input type='submit' value='login'/>
+                    <input type='submit' value='login' />
+
                 </Form>
             )}
         </Formik>
