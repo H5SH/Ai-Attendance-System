@@ -34,6 +34,7 @@ function WebCam({ setFile, file }) {
                                 No Camera Was Found
                             </div>
                         )}
+                        >
                         {({ getScreenshot }) => (
                             <input
                                 type='button'
@@ -42,7 +43,7 @@ function WebCam({ setFile, file }) {
                                     setImageSrc(getScreenshot())
                                 }}
                             />
-                        )} />
+                        )}</Webcam>
                 </> :
                 <>
                     <img
@@ -72,3 +73,5 @@ function WebCam({ setFile, file }) {
         </>
     )
 }
+
+export default WebCam
