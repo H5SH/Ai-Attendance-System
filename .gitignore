@@ -1,0 +1,6 @@
+*.txt
+*.png
+/anotated_images
+/rotated_img
+/small_dataset
+*.pt
