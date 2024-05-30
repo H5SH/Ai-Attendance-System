@@ -1,39 +1,34 @@
-train: C:\H5SH\Other_Projects\Ai-Attendance-System\train
-val: C:\H5SH\Other_Projects\Ai-Attendance-System\val
+train: /kaggle/input/850-label-png-yolo-22-classesfacesdetection/train
+val: /kaggle/input/val-data-for-yolo-4-png-with-labels/val
 
-nc: 34
+nc: 27
 
-names: ["Mustafa Raja",
+names: [
     "Muhammad Abdullah",
-    "Abdullah Arshad",
-    "Hasham Mukhtar",
-    "Bilal Muaz wala",
-    "Raheeb Noisy",
-    "Faizan Rasul",
-    "Sahil Kumar",
-    "Spiderman",
-    "Mohid Kashif",
-    "Zaid Atif",
-    "Ali Zahid",
-    "Ghulam Mujtaba",
-    "Shaheer",
-    "Zeshan",
-    "Shabby",
-    "Usama Mustafa",
-    "Ali Ahmed",
+    "Raheeb Gill",
+    "Hasham Asad",
     "Muaz Asim",
-    "Rizwan Ghuri",
-    "Nabeel",
-    "Bilal Tahir",
-    "Umar Farooq",
     "Hamza Khalid",
-    "Jannat Sameer",
+    "Bilal Munir",
+    "Ali Ahmed",
+    "Mustafa Raja",
+    "Bilal Ch",
+    "Hasham Mukhtar",
+    "Abdullah Arshad",
+    "Ghulam Mujtaba",
+    "Zaid Atif",
     "Sahar Arif",
     "Anmol Nisar",
-    "Hasham Asad",
-    "Syed Anus",
-    "Umar Naizi",
-    "Sp",
+    "Sahil Kumar",
+    "Umar Niazi",
+    "Jannat Sameer",
+    "Faizan Rasul",
     "Bakhtawar Asad",
     "Rumaiha",
-    "Hasham Mukhtarw"]
+    "Rizwan Ghuri",
+    "Rizwan Ghuriw",
+    "G",
+    "Mustafa RajaW",
+    "Hasham AsadW",
+    "Hamza KhalidW"
+]

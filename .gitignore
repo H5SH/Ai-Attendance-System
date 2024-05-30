@@ -1,6 +1,10 @@
-*.txt
-*.png
+train/images/*.png
+train/labels/*.txt
+val/images/*.png
+val/labels/*.txt
 /anotated_images
 /rotated_img
 /small_dataset
-*.pt
+yolov8m.pt
+zip
+new_train
