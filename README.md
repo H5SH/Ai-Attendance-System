@@ -1,18 +1,7 @@
-# Ai-Attendance-System
 
-A simple Ai attendance system for students or office use, with React on frontend and Python Django on Backend
-
-## Model Training
-
-### Converted heic to png
-
-using a convertion python program
-
-### Rotation of all img files 
-
-Rotated All the Image Files to 0, 90, 180, 270 degrees using a python program
 
 ### labelImg Canvas Error of Data being float 
+[Face Recognition_ Methods and Applications.pdf](https://github.com/H5SH/Ai-Attendance-System/files/15502601/Face.Recognition_.Methods.and.Applications.pdf)
 
 Solved by following guidlines
 
